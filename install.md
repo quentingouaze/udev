@@ -1,6 +1,6 @@
 # Setup pour bosser sur vos pc perso pour les cours à distance
 
-## 1-> Ajout d'un élément au "PATH" (Variables d'environnement système)
+## [1-> Ajout d'un élément au "PATH" (Variables d'environnement système)](https://github.com/quentingouaze/udev/blob/master/install.md#ajout-dun-%C3%A9l%C3%A9ment-au-path-variables-denvironnement-syst%C3%A8me)
 ## 2-> PHP/Mysql 
 ### 2b-> Pour lancer un serveur PHP indépendant de wamp, dans n'importe quel dossier
 ## 3-> Frameworks PHP (Symfony, Laravel..)
