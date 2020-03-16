@@ -1,15 +1,17 @@
 # Setup pour bosser sur vos pc perso pour les cours à distance
 
 ## 1-> [Ajout d'un élément au "PATH" (Variables d'environnement système)](https://github.com/quentingouaze/udev/blob/master/install.md#ajout-dun-%C3%A9l%C3%A9ment-au-path-variables-denvironnement-syst%C3%A8me)
-## 2-> [PHP/Mysql](https://github.com/quentingouaze/udev/blob/master/install.md#phpmysql) 
-### 2a-> [Pour lancer un serveur PHP indépendant de wamp, dans n'importe quel dossier](https://github.com/quentingouaze/udev/blob/master/install.md#2b--pour-lancer-un-serveur-php-ind%C3%A9pendant-de-wamp-dans-nimporte-quel-dossier)
-## 3-> [Frameworks PHP (Symfony, Laravel..)](https://github.com/quentingouaze/udev/blob/master/install.md#frameworks-php-symfony-laravel)
-### 3a-> [Symfony](https://github.com/quentingouaze/udev/blob/master/install.md#symfony)
-### 3b-> [Laravel ](https://github.com/quentingouaze/udev/blob/master/install.md#laravel)
-## 4-> [Frameworks Javascript (React, Vue, Angular..)](https://github.com/quentingouaze/udev/blob/master/install.md#frameworks-javascript-react-vue-angular)
-### 4a-> [React](https://github.com/quentingouaze/udev/blob/master/install.md#react)
-### 4b-> [VueJS](https://github.com/quentingouaze/udev/blob/master/install.md#vuejs)
-### 4c-> [Angular](https://github.com/quentingouaze/udev/blob/master/install.md#angular)
+## 2-> [Gestionnaire de paquets "Chocolatey"]()
+
+## 3-> [PHP/Mysql](https://github.com/quentingouaze/udev/blob/master/install.md#phpmysql) 
+### 3a-> [Pour lancer un serveur PHP indépendant de wamp, dans n'importe quel dossier](https://github.com/quentingouaze/udev/blob/master/install.md#2b--pour-lancer-un-serveur-php-ind%C3%A9pendant-de-wamp-dans-nimporte-quel-dossier)
+## 4-> [Frameworks PHP (Symfony, Laravel..)](https://github.com/quentingouaze/udev/blob/master/install.md#frameworks-php-symfony-laravel)
+### 4a-> [Symfony](https://github.com/quentingouaze/udev/blob/master/install.md#symfony)
+### 4b-> [Laravel ](https://github.com/quentingouaze/udev/blob/master/install.md#laravel)
+## 5-> [Frameworks Javascript (React, Vue, Angular..)](https://github.com/quentingouaze/udev/blob/master/install.md#frameworks-javascript-react-vue-angular)
+### 5a-> [React](https://github.com/quentingouaze/udev/blob/master/install.md#react)
+### 5b-> [VueJS](https://github.com/quentingouaze/udev/blob/master/install.md#vuejs)
+### 5c-> [Angular](https://github.com/quentingouaze/udev/blob/master/install.md#angular)
 
 
 
@@ -26,7 +28,23 @@ php -v
 java --version
 javac --version
 ```
-
+## Gestionnaire de paquets "Chocolatey"
+En tant qu'administrateur (Powershell):
+Vérifier si Get-ExecutionPolicy retourne "Restricted". Si c'est le cas, utiliser:
+```
+Set-ExecutionPolicy Bypass -Scope Process
+```
+Puis lancer la commande suivante:
+```
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+```
+Ici, lancez une nouvelle invite de commande pour vérifier si tout fonctionne:
+```choco```
+Cette commande devrait vous afficher un numero de version
+Vous pouvez ensuite installer des paquets (par exemple, tree) via la commande install:
+```
+choco install tree
+```
 ## PHP/Mysql
 
 Télécharger WampServer sur leur site officiel: http://www.wampserver.com/fr/ 
@@ -94,4 +112,33 @@ ng new my_project
 Pour lancer le projet, se déplacer dans le dossier via "cd" puis
 ```
 ng serve
+```
+
+## Java
+Télécharger l'[executable](https://www.oracle.com/java/technologies/javase-jdk8-downloads.html) pour installer Java Development Kit 8 et l'executer.
+Télécharger l'[executable](https://maven.apache.org/download.cgi) d'installation de Maven et l'éxecuter.
+Ajouter les dossiers de Java et de Maven au PATH [(Variables d'environnement Systeme)](https://github.com/quentingouaze/udev/blob/master/install.md#ajout-dun-%C3%A9l%C3%A9ment-au-path-variables-denvironnement-syst%C3%A8me)
+Vérifier la bonne installation des logiciels (dans une nouvelle fenêtre de git bash ou de la CLI windows, ou après avoir rechargé votre fichier source)
+```
+java -version
+
+javac -version
+
+mvn -v
+```
+Assurer l'encodage en UTF-8 pour éviter des bugs de caractères/symboles:
+```
+echo "alias java='java -Dfile.encoding=UTF-8'" >> ~/.bash_profile
+echo "alias javac='javac -encoding utf8'" >> ~/.bash_profile
+```
+Vérifier si les commandes précédentes ont fonctionné:
+```
+java -XshowSettings 2>&1 | grep encoding
+```
+qui devrait vous donner: 
+```
+ file.encoding = UTF-8
+    file.encoding.pkg = sun.io
+    sun.io.unicode.encoding = UnicodeLittle
+    sun.jnu.encoding = Cp1252
 ```
