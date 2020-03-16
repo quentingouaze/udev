@@ -1,5 +1,18 @@
 # Setup pour bosser sur vos pc perso pour les cours à distance
 
+## 1-> Ajout d'un élément au "PATH" (Variables d'environnement système)
+## 2-> PHP/Mysql 
+### 2b-> Pour lancer un serveur PHP indépendant de wamp, dans n'importe quel dossier
+## 3-> Frameworks PHP (Symfony, Laravel..)
+### 3a-> Symfony
+### 3b-> Laravel 
+## 4-> Frameworks Javascript (React, Vue, Angular..)
+### 4a-> React
+### 4b-> VueJS
+### 4c-> Angular
+
+
+
 ## Ajout d'un élément au "PATH" (Variables d'environnement système)
 
 Dans la barre de recherche Windows: "environnement" et vous devriez trouver "Modifier les variables d'environnement Systeme", qui ouvrira les "Propriétés système".
