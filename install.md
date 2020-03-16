@@ -1,15 +1,15 @@
 # Setup pour bosser sur vos pc perso pour les cours à distance
 
-## [1-> Ajout d'un élément au "PATH" (Variables d'environnement système)](https://github.com/quentingouaze/udev/blob/master/install.md#ajout-dun-%C3%A9l%C3%A9ment-au-path-variables-denvironnement-syst%C3%A8me)
-## [2-> PHP/Mysql](https://github.com/quentingouaze/udev/blob/master/install.md#phpmysql) 
-### [2a-> Pour lancer un serveur PHP indépendant de wamp, dans n'importe quel dossier](https://github.com/quentingouaze/udev/blob/master/install.md#2b--pour-lancer-un-serveur-php-ind%C3%A9pendant-de-wamp-dans-nimporte-quel-dossier)
-## [3-> Frameworks PHP (Symfony, Laravel..)](https://github.com/quentingouaze/udev/blob/master/install.md#frameworks-php-symfony-laravel)
-### [3a-> Symfony](https://github.com/quentingouaze/udev/blob/master/install.md#symfony)
-### [3b-> Laravel ](https://github.com/quentingouaze/udev/blob/master/install.md#laravel)
-## [4-> Frameworks Javascript (React, Vue, Angular..)](https://github.com/quentingouaze/udev/blob/master/install.md#frameworks-javascript-react-vue-angular)
-### [4a-> React](https://github.com/quentingouaze/udev/blob/master/install.md#react)
-### [4b-> VueJS](https://github.com/quentingouaze/udev/blob/master/install.md#vuejs)
-### [4c-> Angular](https://github.com/quentingouaze/udev/blob/master/install.md#angular)
+## 1-> [Ajout d'un élément au "PATH" (Variables d'environnement système)](https://github.com/quentingouaze/udev/blob/master/install.md#ajout-dun-%C3%A9l%C3%A9ment-au-path-variables-denvironnement-syst%C3%A8me)
+## 2-> [PHP/Mysql](https://github.com/quentingouaze/udev/blob/master/install.md#phpmysql) 
+### 2a-> [Pour lancer un serveur PHP indépendant de wamp, dans n'importe quel dossier](https://github.com/quentingouaze/udev/blob/master/install.md#2b--pour-lancer-un-serveur-php-ind%C3%A9pendant-de-wamp-dans-nimporte-quel-dossier)
+## 3-> [Frameworks PHP (Symfony, Laravel..)](https://github.com/quentingouaze/udev/blob/master/install.md#frameworks-php-symfony-laravel)
+### 3a-> [Symfony](https://github.com/quentingouaze/udev/blob/master/install.md#symfony)
+### 3b-> [Laravel ](https://github.com/quentingouaze/udev/blob/master/install.md#laravel)
+## 4-> [Frameworks Javascript (React, Vue, Angular..)](https://github.com/quentingouaze/udev/blob/master/install.md#frameworks-javascript-react-vue-angular)
+### 4a-> [React](https://github.com/quentingouaze/udev/blob/master/install.md#react)
+### 4b-> [VueJS](https://github.com/quentingouaze/udev/blob/master/install.md#vuejs)
+### 4c-> [Angular](https://github.com/quentingouaze/udev/blob/master/install.md#angular)
 
 
 
