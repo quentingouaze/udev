@@ -1,4 +1,4 @@
-# SETUP pour bosser sur vos pc perso pour les cours à distance
+# Setup pour bosser sur vos pc perso pour les cours à distance
 
 ## Ajout d'un élément au "PATH" (Variables d'environnement système)
 
