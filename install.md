@@ -100,6 +100,8 @@ Pour créer un projet:
 ```
 vue create my_project
 ```
+Pour lancer le projet, se placer dans le dossier via "cd" puis:
+```npm run start```
 ### Angular
 Là aussi, l'installation globale se fait via NPM:
 ```
