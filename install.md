@@ -91,6 +91,11 @@ Puis pour créer un projet:
 ```
 npm create-react-app my_project
 ```
+Et pour le lancer, se placer dans le dossier via "cd" puis:
+```
+npm run start
+```
+Y accéder sur un navigateur via http://localhost:8080/ (par défaut)
 ### VueJS
 La CLI de vue est installable via NPM:
 ``` 
@@ -102,6 +107,8 @@ vue create my_project
 ```
 Pour lancer le projet, se placer dans le dossier via "cd" puis:
 ```npm run start```
+
+Y accéder sur un navigateur via http://localhost:8080/ (par défaut)
 ### Angular
 Là aussi, l'installation globale se fait via NPM:
 ```
@@ -115,6 +122,8 @@ Pour lancer le projet, se déplacer dans le dossier via "cd" puis
 ```
 ng serve
 ```
+
+Y accéder sur un navigateur via http://localhost:4200/ (par défaut)
 
 ## Java
 Télécharger l'[executable](https://www.oracle.com/java/technologies/javase-jdk8-downloads.html) pour installer Java Development Kit 8 et l'executer.
