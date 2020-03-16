@@ -4,7 +4,7 @@
 ## 2-> [Gestionnaire de paquets "Chocolatey"](https://github.com/quentingouaze/udev/blob/master/install.md#gestionnaire-de-paquets-chocolatey)
 
 ## 3-> [PHP/Mysql](https://github.com/quentingouaze/udev/blob/master/install.md#phpmysql) 
-### 3a-> [Pour lancer un serveur PHP indépendant de wamp](https://github.com/quentingouaze/udev/blob/master/install.md#2b--pour-lancer-un-serveur-php-ind%C3%A9pendant-de-wamp-dans-nimporte-quel-dossier)
+### 3a-> [Pour lancer un serveur PHP indépendant de wamp](https://github.com/quentingouaze/udev/blob/master/install.md#pour-lancer-un-serveur-php-ind%C3%A9pendant-de-wamp-dans-nimporte-quel-dossier)
 ## 4-> [Frameworks PHP (Symfony, Laravel..)](https://github.com/quentingouaze/udev/blob/master/install.md#frameworks-php-symfony-laravel)
 ### 4a-> [Symfony](https://github.com/quentingouaze/udev/blob/master/install.md#symfony)
 ### 4b-> [Laravel ](https://github.com/quentingouaze/udev/blob/master/install.md#laravel)
