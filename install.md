@@ -82,7 +82,7 @@ Ensuite, pour créer un nouveau projet:
 ```
 laravel new my_project
 ```
-Pour lancer le projet:
+Pour lancer le projet, comme toujours, cd dans le dossier, puis:
 ```
 php artisan serve
 ```
