@@ -12,7 +12,7 @@
 ### 5a-> [React](https://github.com/quentingouaze/udev/blob/master/install.md#react)
 ### 5b-> [VueJS](https://github.com/quentingouaze/udev/blob/master/install.md#vuejs)
 ### 5c-> [Angular](https://github.com/quentingouaze/udev/blob/master/install.md#angular)
-
+### 6-> [Java (+Maven)](https://github.com/quentingouaze/udev/blob/master/install.md#java)
 
 
 ## Ajout d'un élément au "PATH" (Variables d'environnement système)
