@@ -55,7 +55,7 @@ Vous devez avoir installé Visual Studio 2012 VC 11 vcredist_x64/86.exe disponib
 
 cd dans le dossier en question dans la ligne de commande ou le git bash, puis:
 ``` php -S localhost:#### ```
-où "####" est un numéro de port au choix, qui doit être différents de ceux déjà utilisés par wamp, npm ou autre, et qui vous permettra d'ouvrir votre projet dans un navigateur
+où "####" est un numéro de port au choix, qui doit être différent de ceux déjà utilisés par wamp, npm ou autres, et qui vous permettra d'ouvrir votre projet dans un navigateur
 
 ## Frameworks PHP (Symfony, Laravel..)
 Vous aurez besoin du gestionnaire de dépendances pour PHP "Composer" disponible ici: https://getcomposer.org/download/ 
@@ -70,6 +70,9 @@ ou via composer:
 ```
 composer create-project symfony/website-skeleton my_project
 ```
+Puis pour lancer le projet, cd dans le dossier (ici "my_project") puis:
+php -S localhost:#### (remplacer les #### par un port au choix, comme expliqué [ici](https://github.com/quentingouaze/udev/blob/master/install.md#pour-lancer-un-serveur-php-ind%C3%A9pendant-de-wamp-dans-nimporte-quel-dossier))
+La partie "publique" du site sera visible à localhost:####/public/ .
 ### Laravel 
 Une commande composer suffit pour installer laravel/installer globalement:
 ```
@@ -78,6 +81,10 @@ composer global require laravel/installer
 Ensuite, pour créer un nouveau projet:
 ```
 laravel new my_project
+```
+Pour lancer le projet:
+```
+php artisan serve
 ```
 
 ## Frameworks Javascript (React, Vue, Angular..)
